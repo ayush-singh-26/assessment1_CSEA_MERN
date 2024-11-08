@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script
+src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bu ndle.min.js"></script>
+</head>
+
+<body>
+    <div class="main">
+        <h1>Resume Builder</h1>
+
+        <form action="" class="resume-form">
+
+            <label for="">Name:</label>
+            <input class="form-input" id="name1" type="text" placeholder="Enter your full name">
+            <label for="">Email:</label>
+            <input class="form-input email" id="email" type="email" placeholder="Enter your email address">
+            <label for="">Phone Number:</label>
+            <input class="form-input phone" type="tel" placeholder="Enter your Phone number">
+            <label for="">Linkedin profile:</label>
+            <input class="form-input linkedin" type="text" placeholder="Enter your linkedin profile link">
+            <label for="">Github Profile:</label>
+            <input class="form-input github" type="text" placeholder="Enter your github profile link">
+            <label for="">Work Experience:</label>
+            <input class="form-input experience" type="text" placeholder="Enter your work experience">
+            <label for="">Education:</label>
+            <input class="form-input education" type="text" placeholder="Enter your work experience">
+            <label for="">Upload photo:</label>
+            <input type="file" class="photo">
+
+            <button class="btn downpdf">Genrate Resume</button>
+        </form>
+
+        <div class="resume">
+            <h2 id="name"></h2>
+            <img src="" id="photo" alt="">
+            <label for="">Email:</label>
+            <p id="email"></p>
+            <label for="">Phone:</label>
+            <p id="phone"></p>
+
+            <label for="">Linkedin:</label>
+            <a href="" id="linkedin"></a>
+            <br>
+            <label for="">Github:</label>
+            <a href="" id="github"></a>
+            <br>
+            <label for="">Experience:</label>
+            <p id="experience"></p>
+            <br>
+            <label for="">Education:</label>
+            <p id="education"></p>
+            <button class="btn download" onclick="downloadResume()">Download Resume</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
