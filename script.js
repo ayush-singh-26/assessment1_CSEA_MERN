@@ -1,10 +1,10 @@
-document.getElementsByClassName('resume')[0].style.display = 'none';
+document.getElementById('resume').style.display = 'none';
 
 
 document.querySelector('.downpdf').addEventListener('click', function(event) {
     event.preventDefault();
     document.getElementsByClassName('resume-form')[0].style.display = 'none';
-    document.getElementsByClassName('resume')[0].style.display ='block';
+    document.getElementById('resume').style.display ='block';
 
 
     const name1 = document.getElementById('name1').value;

@@ -73,8 +73,10 @@ h2{
     text-align: center;
 }
 
-.resume {
-    margin-top: 20px;
+#resume {
+    width: 50%;
+
+    margin: 20px auto;
     text-align: left;
 }
 
@@ -92,7 +94,7 @@ p {
 }
 
 a {
-    color: #0073b1; /* LinkedIn blue */
+    color: #0073b1; 
     text-decoration: none;
     font-weight: bold;
 }
@@ -101,7 +103,6 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Styling for the photo */
 #photo {
     width: 100px;
     height: 100px;
@@ -109,7 +110,6 @@ a:hover {
     margin-top: 10px;
 }
 
-/* Button styling */
 .btn {
     display: inline-block;
     padding: 10px 20px;
@@ -129,9 +129,9 @@ a:hover {
 }
 
 .download {
-    background-color: #28a745; /* Green color for download button */
+    background-color: #005a8c; 
 }
 
 .download:hover {
-    background-color: #218838;
+    background-color: #005a8c;
 }
